@@ -1,0 +1,19 @@
+[
+  {
+    "type":"pie",
+    "data":[
+      {
+        "label":"Category A",
+        "value":40
+      },
+      {
+        "label":"Category B",
+        "value":50
+      },
+      {
+        "label":"Category C",
+        "value":20
+      }
+    ]
+  }
+]

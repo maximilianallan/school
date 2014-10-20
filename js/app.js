@@ -1,16 +1,3 @@
-// create module for custom directives
-//var d3DemoApp = angular.module('d3DemoApp', []);
-
-// controller business logic
-//d3DemoApp.controller('MiniMap', function AppCtrl ($scope) {
-//});
-
-//var currentMousePos = { x: -1, y: -1 };
-//$(document).mousemove(function(event) {
-//    currentMousePos.x = event.pageX;
-//    currentMousePos.y = event.pageY;
-//});
-
 function drawPieChart(id,data){
   
   var color = d3.scale.category20c();
@@ -64,14 +51,14 @@ function showData(id){
   techInfo.empty();
   
   $("#human-info").append("<h2> Social/Human info on " + $("#"+id).attr("path-name") + "</h2>");
-  d3.json("well_hs.json",function(data) {
+  d3.json("res/test_data_hs.json",function(data) {
     
     drawPieChart("human-info",data[0].data);
     
   });
   
   techInfo.append("<h2> Technical info on " + $("#"+id).attr("path-name") + "</h2>");
-  d3.json("well_tech.json",function(data) {
+  d3.json("res/test_data_tech.json",function(data) {
     
     drawPieChart("tech-info",data[0].data);
   
@@ -156,11 +143,11 @@ function buildMap(){
    .attr('y',70)
    .attr('width', 1545)
    .attr('height', 845)
-   .attr("xlink:href","updated.png");
+   .attr("xlink:href","res/bg.png");
   
   canvas.call(tip);
   
-  d3.json("plan.json",function(data) {
+  d3.json("res/data.json",function(data) {
             
        
 
