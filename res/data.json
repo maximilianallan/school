@@ -1,80 +1,60 @@
 [
-  {
-  "group":"Physical Boundary",
-  "boundary":"Outer Wall",
-  "tag":"outer-wall",
-  "type":"M",
-  "data":[
-    {
-      "x":290.625,       
-      "y":308.22916
-    },
-    {
-      "x":326.66667,
-      "y":147.91666
-    },
-    {
-      "x":743.75,
-      "y":255.41666
-    },
-    {
-      "x":1085.4167,
-      "y":457.5
-    },
-    {
-      "x":919.6875,
-      "y":773.33333
-    },
-    {
-      "x":777.91667,
-      "y":851.77083
-    },
-    {
-      "x":600.83333,
-      "y":916.25
-    },
-    {
-      "x":266.25,
-      "y":729.0625
-    },
-    {
-      "x":214.58333,
-      "y":647.60417
-    }
-    ]
-  },
-  {
-    "group":"Water Supply System",
-    "boundary":"Water Supply System 1",
-    "tag":"wss-1",
+  {    
+    "class":"recreational-area",
+    "tag":"Football Pitch",
+    "id":"football_pitch",
     "type":"m",
-    "data":[
-      {
-        "x":573.28125,
-        "y":293.07291
+    "data":[ 
+      { 
+        "x":240.41667,
+        "y":597.08333 
       },
       {
-        "x":2.34375,
-        "y":-8.33333
+        "x":55,
+        "y":-242.49999 
       },
       {
-        "x":14.94792,
-        "y":4.16667
+        "x":74.16666, 
+        "y":17.5
       },
       {
-        "x":-2.39583,
-        "y":8.4375
-      },
-      {
-        "x":-14.89584,
-        "y":-4.27084
+        "x":-55,
+        "y":242.08333
       }
-    ]
+    ] 
+  },
+  { 
+    "class":"water-supply-system",
+    "tag":"Cafeteria Sink",
+    "id":"cafeteria_sink",
+    "type":"M",
+    "data":[ 
+      { 
+        "x":779.16667,
+        "y":709.89583 
+      },
+      {
+        "x":781.77084,
+        "y":705
+      },
+      {
+        "x":"l 7.29166",
+        "y":3.75
+      },
+      {
+        "x":-2.60416,
+        "y":5.10417
+      },
+      {
+        "x":-7.29167,
+        "y":-3.95834
+      }
+    ] 
   },
   {
-    "group":"Playground",
-    "boundary":"Recreational Area",
-    "tag":"playground",
+    "class":"recreational-area",
+    "tag":"Playground",
+    "id":"playground",
     "type":"m",
     "data":[
       {
@@ -96,9 +76,82 @@
     ]
   },
   {
-    "group":"Structure",
-    "boundary":"Bridge",
-    "tag":"bridge",
+    "class":"buildings",
+    "tag":"Toilets",
+    "id":"toilets",
+    "type":"m",
+    "data":[
+      {
+        "x":1022.5059,
+        "y":446.34202
+      },
+      {
+        "x":11.7851,
+        "y":6.77644
+      },
+      {
+        "x":-27.9897,
+        "y":50.67599
+      },
+      {
+        "x":-11.93239,
+        "y":-6.3345
+      }
+    ]
+  },
+   
+  {
+    "class":"water-supply-system",
+    "tag":"Sinks",
+    "id":"sinks",
+    "type":"m",
+    "data":[
+      {
+        "x":992.30651, 
+        "y":489.35769
+      },
+      {
+        "x":1.76777, 
+        "y":-2.35703
+      },
+      {
+        "x":3.38822, 
+        "y":1.91508
+      },
+      {
+        "x":-1.76777,
+        "y":2.50434
+      }
+    ]
+  },
+   {
+    "class":"water-supply-system",
+    "tag":"Sinks",
+    "id":"sinks_2",
+    "type":"m",
+    "data":[
+      {
+        "x":1013.667, 
+        "y":451.3507
+      },
+      {
+        "x":1.6205,
+        "y":-2.65165 
+      },
+      {
+        "x":3.5355,
+        "y":2.06239 
+      },
+      {
+        "x":-1.6204,
+        "y":2.79897
+      }
+    ]
+  },
+  {
+    "class":"structure",
+    "tag":"Bridge",
+    "id":"bridge",
     "type":"m",
     "data":[
       {
@@ -115,174 +168,18 @@
       },
       {
         "x":-7.5,
-        "y":"10 L"
+        "y":10
       },
       {
-        "x":514.0625,
+        "x":"L 514.0625",
         "y":485.3125
       }
     ]
   },
-  {
-    "group":"Structure",
-    "boundary":"Laundry Location",
-    "tag":"laundry-location",
-    "type":"m",
-    "data":[
-      {
-        "x":863.8831,
-        "y":522.13957
-      },
-      {
-        "x":9.1464,
-        "y":9.42827
-      },
-      {
-        "x":-15.4543,
-        "y":16.21001
-      },
-      {
-        "x":-10.0927,
-        "y":-9.59368
-      }
-    ]
-  },
-  {
-    "group":"Structure",
-    "boundary":"Front Gate",
-    "type":"m",
-    "tag":"front-gate",
-    "data":[
-      {
-        "x":288.21967, 
-        "y":308.4562
-      },
-      {
-        "x":4.71405,
-        "y":1.03119
-      },
-      {
-        "x":-8.24958,
-        "y":37.78602
-      },
-      {
-        "x":-5.00868,
-        "y":-1.17851
-      }
-    ]    
-  },
-  {
-    "group":"Structure",
-    "boundary":"Back Gate",
-    "tag":"back-gate",
-    "type":"m",
-    "data":[
-      {
-        "x":617.2453, 
-        "y":907.87651
-      },
-      {
-        "x":1.47314,
-        "y":4.2721
-      },
-      {
-        "x":22.17074,
-        "y":-8.0286
-      },
-      {
-        "x":-1.91508,
-        "y":-4.34577
-      }
-    ]    
-  },
-  {
-    "group":"Structure",
-    "boundary":"Primary Meter Building",
-    "type":"M",
-    "tag":"primary-meter-building",
-    "data":[
-      {
-        "x":978.64584, 
-        "y":565.41666
-      },
-      {
-        "x":985,
-        "y":"557.5 l"
-      },
-      {
-        "x":5.3125,
-        "y":4.27083
-      },
-      {
-        "x":-6.25,
-        "y":7.91667
-      },
-      {
-        "x":-5.41666,
-        "y":-4.27084
-      }
-    ]    
-  },
   { 
-    "group":"Building",
-    "boundary":"Cafeteria",
-    "tag":"cafeteria",
-    "type":"M",
-    "data":[ 
-      { 
-        "x":725,
-        "y":732.5
-      },
-      {
-        "x":747.1875,
-        "y":691.14583
-      },
-      {
-        "x":812.29167,
-        "y":725.9375
-      },
-      {
-        "x":790.3125,
-        "y":767.08333
-      },
-      {
-        "x":725,
-        "y":732.5
-      }
-    ]  
-  },
-  { 
-    "group":"Building",
-    "boundary":"Misc",
-    "tag":"misc",
-    "type":"m",
-    "data":[ 
-      { 
-        "x":832.47092,
-        "y":657.51651
-      },
-      {
-        "x":12.59534,
-        "y":9.28078
-      },
-      {
-        "x":-9.28077,
-        "y":12.81631
-      },
-      {
-        "x":-12.96363,
-        "y":-9.35443
-      },
-      {
-        "x":9.64906,
-        "y":-12.74266
-      }
-    ]  
-  },
-  { 
-    "group":"Water Supply System",
-    "boundary":"Water Supply System 2",
-    "tag":"wss2",
+    "class":"water-supply-system",
+    "tag":"Cafeteria Sink",
+    "id":"cafeteria_sink",
     "type":"M",
     "data":[ 
       { 
@@ -291,10 +188,10 @@
       },
       {
         "x":781.77084,
-        "y":"705 l"
+        "y":705
       },
       {
-        "x":7.29166,
+        "x":"l 7.29166",
         "y":3.75
       },
       {
@@ -307,38 +204,11 @@
       }
     ] 
   },
+ 
   { 
-    "group":"Water Supply System",
-    "boundary":"Water Supply System 3",
-    "tag":"wss3",
-    "type":"m",
-    "data":[ 
-      { 
-        "x":793.22917,
-        "y":670.57291
-      },
-      {
-        "x":2.65625,
-        "y":1.40625 
-      },
-      {
-        "x":-1.51042,
-        "y":2.60417
-      },
-      {
-        "x":-2.70833,
-        "y":-1.5625
-      },
-      {
-        "x":1.5625,
-        "y":-2.44792
-      }
-    ] 
-  },
-  { 
-    "group":"Building",
-    "boundary":"Storeroom",
-    "tag":"storeroom",
+    "class":"Building",
+    "tag":"Storeroom",
+    "id":"storeroom",
     "type":"m",
     "data":[ 
       { 
@@ -351,10 +221,10 @@
       },
       {
         "x":-30.625,
-        "y":"57.5 L"
+        "y":57.5
       },
       {
-        "x":791.14584,
+        "x":"L 791.14584",
         "y":788.75
       },
       {
@@ -363,68 +233,11 @@
       }
     ] 
   },
+ 
   { 
-    "group":"Building",
-    "boundary":"Office", 
-    "tag":"office",
-    "type":"m",
-    "data":[ 
-      { 
-        "x":955.84633,
-        "y":532.66797
-      },
-      {
-        "x":28.43158,
-        "y":20.99224
-      },
-      {
-        "x":-38.44893,
-        "y":52.29644 
-      },
-      {
-        "x":-28.43159,
-        "y":-21.21321
-      },
-      {
-        "x":38.44894,
-        "y":-52.07547
-      }
-    ] 
-  },
-  
-  { 
-    "group":"Building",
-    "boundary":"Kitchen",
-    "tag":"kitchen",
-    "type":"m",
-    "data":[ 
-      { 
-        "x":871.21448,
-        "y":694.56596
-      },
-      {
-        "x":14.06848,
-        "y":10.75392
-      },
-      {
-        "x":47.65605,
-        "y":-64.59715
-      },
-      {
-
-        "x":-14.43676,
-        "y":-10.82757
-      },
-      {
-        "x":-47.28777,
-        "y":64.6708
-      }
-    ] 
-  },
-  { 
-    "group":"Building",
-    "boundary":"Dormitory 4",
-    "tag":"dorm_4",
+    "class":"Building",
+    "tag":"Dormitory (boys)",
+    "id":"dorms_boys",
     "type":"m",
     "data":[ 
       { 
@@ -445,127 +258,203 @@
       }
     ] 
   },
-  
   { 
-    "group":"Building",
-    "boundary":"Dormitory 3", 
-    "tag":"dorm_3",
+    "class":"Building",
+    "tag":"Dormitory (girls)", 
+    "id":"dorms_girls",
     "type":"m",
     "data":[ 
-    { 
-      "x":852.39584,
-      "y":414.89583
+      { 
+        "x":943.10367,
+        "y":468.43911 
       },
       {
-      "x":11.45833,
-      "y":-21.25
+        "x":28.28427,
+        "y":-50.52867
       },
       {
-      "x":35.38678,
-      "y":19.07179
+        "x":45.07806,
+        "y":25.19068
       },
       {
-      "x":-11.26951,
-      "y":21.06589
-      }
-    ] 
+        "x":-28.43159,
+        "y":50.67598
+      }   
+   ]  
   },
   {    
-    "group":"Building",
-    "boundary":"Proctor's House",
-    "tag":"proctors-house",
+    "class":"Black-and-gray",
+    "tag":"Disused Pit Latrine",
+    "id":"disused_pit_latrine",
     "type":"m",
     "data":[ 
       { 
-        "x":917.55209,   
-        "y":409.11458
+        "x":803.33333,
+        "y":585.83333
       },
       {
-        "x":9.58333,
-        "y":-18.90625
+        "x":5.83333,
+        "y":-11.25
       },
       {
-        "x":17.70833,
-        "y":8.90625
+        "x":11.66667,
+        "y":7.91667
       },
       {
-        "x":5.10417,
-        "y":-9.89583
+        "x":-6.66667,
+        "y":9.16667
+      }
+    ] 
+  },
+  
+  {    
+    "class":"Building",
+    "tag":"Pavillion",
+    "id":"pavillion",
+    "type":"m",
+    "data":[ 
+      { 
+        "x":884.58333,
+        "y":379.58334   
       },
       {
-        "x":16.30208,
-        "y":8.125
+        "x":10,
+        "y":-18.75
       },
       {
-        "x":-10.78125,
-        "y":21.25
+        "x":18.33333,
+        "y":9.16666
       },
       {
-        "x":-15.26041,
-        "y":-7.60417
-      },
-      {
-        "x":-3.90625,
-        "y":7.96875
+        "x":-10,
+        "y":19.58334
       }
     ] 
   },
   { 
-    "group":"Building",
-    "boundary":"Dormitory 1", 
-    "tag":"dorm_1",
+    "class":"Building",
+    "tag":"Showers", 
+    "id":"showers",
     "type":"m",
     "data":[ 
       { 
-        "x":971.14584,
-        "y":418.02083
+        "x":1014.1667,
+        "y":503.33333 
       },
       {
-        "x":63.17706,
-        "y":35
+        "x":12.9166,
+        "y":-25 
       },
       {
-        "x":-28.125,
-        "y":50.88542
+        "x":19.1667,
+        "y":10.41667 
       },
       {
-        "x":-63.17706,
-        "y":-35.26042
+        "x":-12.9167,
+        "y":24.58333
+      }   
+   ]  
+  },{ 
+    "class":"water-supply-system",
+    "tag":"Water Tower", 
+    "id":"water_tower",
+    "type":"m",
+    "data":[ 
+      { 
+        "x":891.25,
+        "y":766.25 
+      },
+      {
+        "x":11.66666,
+        "y":-22.08333
+      },
+      {
+        "x":16.66667,
+        "y":9.16666
+      },
+      {
+        "x":"L 907.5",
+        "y":775.41667
       }   
    ]  
   },
   { 
-    "group":"Building",
-    "boundary":"Toilet",
-    "tag":"toilet",
+    "class":"water-supply-system",
+    "tag":"Water Tower", 
+    "id":"water_tower",
+    "type":"m",
+    "data":[ 
+      { 
+        "x":891.25,
+        "y":766.25 
+      },
+      {
+        "x":11.66666,
+        "y":-22.08333
+      },
+      {
+        "x":16.66667,
+        "y":9.16666
+      },
+      {
+        "x":"L 907.5",
+        "y":775.41667
+      }   
+   ]  
+  },
+  
+  { 
+    "class":"water-supply-system",
+    "tag":"Well",
+    "id":"well_area",
     "type":"m", 
     "data":[ 
       { 
-        "x":517.66109,
-        "y":252.62422
+        "x":638.33333,
+        "y":621.66667
       },
       {
-        "x":4.56673,
-        "y":-26.95844
+        "x":5.83334,
+        "y":2.08333
       },
       {
-        "x":48.02434,
-        "y":8.24958
+        "x":0.83333, 
+        "y":5
       },
       {
-        "x":-4.47091,
-        "y":26.97005
+        "x":-2.08333,
+        "y":4.16667
       },
       {
-        "x":-48.12016,
-        "y":-8.26119
+        "x":-2.5,
+        "y":2.08333
+      },
+      {
+        "x":-3.75,
+        "y":-1.25
+      },
+      {
+        "x":-2.91667,
+        "y":-1.25
+      },
+      {
+        "x":-1.66667,
+        "y":-3.33333
+      },
+      {
+        "x":0.41667,
+        "y":-2.91667
+      },
+      {
+        "x":1.25,
+        "y":-2.91667
       }
     ]
   },
   { 
-    "group":"Building",
-    "boundary":"Resource Room",
-    "tag":"resource_room",    
+    "class":"Building",
+    "tag":"Classroom",
+    "id":"classroom_2",    
     "type":"m", 
     "data":[ 
       { 
@@ -591,9 +480,9 @@
     ] 
   },
   { 
-    "group":"Building",
-    "boundary":"Class Room",
-    "tag":"class_room",
+    "class":"Building",
+    "tag":"Class Room",
+    "id":"classroom",
     "type":"m", 
     "data":[ 
       { 
@@ -620,9 +509,9 @@
     ] 
   }, 
   { 
-    "group":"Building",
-    "boundary":"Music Room",
-    "tag":"music_room",
+    "class":"Building",
+    "tag":"Classroom",
+    "id":"classroom_3",
     "type":"m", 
     "data":[ 
       { 
